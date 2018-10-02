@@ -331,6 +331,19 @@
     
         <li class="chapter " data-level="1.2.14" data-path="Options.html">
             
+                <a href="Options.html#kubectl-context-kubecontext">
+            
+                    
+                    Kubectl context (kubecontext)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.15" data-path="Options.html">
+            
                 <a href="Options.html#execution-time-exec_time">
             
                     
@@ -342,7 +355,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.15" data-path="Options.html">
+        <li class="chapter " data-level="1.2.16" data-path="Options.html">
             
                 <a href="Options.html#line_sep-node">
             
@@ -355,7 +368,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.16" data-path="Options.html">
+        <li class="chapter " data-level="1.2.17" data-path="Options.html">
             
                 <a href="Options.html#battery-battery">
             
@@ -368,7 +381,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.17" data-path="Options.html">
+        <li class="chapter " data-level="1.2.18" data-path="Options.html">
             
                 <a href="Options.html#jobs-jobs">
             
@@ -381,7 +394,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.18" data-path="Options.html">
+        <li class="chapter " data-level="1.2.19" data-path="Options.html">
             
                 <a href="Options.html#nodejs-node">
             
@@ -394,7 +407,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.19" data-path="Options.html">
+        <li class="chapter " data-level="1.2.20" data-path="Options.html">
             
                 <a href="Options.html#char">
             
@@ -1261,6 +1274,44 @@
 </tr>
 </tbody>
 </table>
+<h3 id="kubectl-context-kubecontext">Kubectl context (<code>kubecontext</code>)</h3>
+<p>Kubernetes context is shown everywhere if <code>kubectl</code> binary is found.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Variable</th>
+<th style="text-align:center">Default</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>SPACEFISH_KUBECONTEXT_SHOW</code></td>
+<td style="text-align:center"><code>true</code></td>
+<td>Show current kubectl context</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>SPACEFISH_KUBECONTEXT_PREFIX</code></td>
+<td style="text-align:center"><code>at</code></td>
+<td>Prefix before the kubectl section</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>SPACEFISH_KUBECONTEXT_SUFFIX</code></td>
+<td style="text-align:center"><code>$SPACEFISH_PROMPT_DEFAULT_SUFFIX</code></td>
+<td>Suffix after the kubectl section</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>SPACEFISH_KUBECONTEXT_SYMBOL</code></td>
+<td style="text-align:center"><code>&#x2638;&#xFE0F;</code></td>
+<td>Character to be shown before kubectl context</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>SPACEFISH_KUBECONTEXT_COLOR</code></td>
+<td style="text-align:center"><code>cyan</code></td>
+<td>Color of kubectl section</td>
+</tr>
+</tbody>
+</table>
 <h3 id="exec-time-exectime">Exec Time (<code>exec_time</code>)</h3>
 <p>Execution time of the last command. Will be displayed if it exceeds the set threshold of time.</p>
 <table>
@@ -1557,7 +1608,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Options","level":"1.2","depth":1,"next":{"title":"Order","level":"1.2.1","depth":2,"anchor":"#order","path":"docs/Options.md","ref":"./docs/Options.md#order","articles":[]},"previous":{"title":"Home","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","github","github-buttons","anchorjs","ga"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/matchai/spacefish/"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"github-buttons":{"buttons":[{"user":"matchai","repo":"spacefish","type":"star","size":"small","count":true}]},"ga":{"configuration":"auto","token":"UA-71160903-2"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"Edit This Page","base":"https://github.com/matchai/spacefish/tree/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchorjs":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Spacefish","gitbook":"3.x.x"},"file":{"path":"docs/Options.md","mtime":"2018-09-29T18:21:58.701Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-29T18:23:08.260Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Options","level":"1.2","depth":1,"next":{"title":"Order","level":"1.2.1","depth":2,"anchor":"#order","path":"docs/Options.md","ref":"./docs/Options.md#order","articles":[]},"previous":{"title":"Home","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","github","github-buttons","anchorjs","ga"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/matchai/spacefish/"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"github-buttons":{"buttons":[{"user":"matchai","repo":"spacefish","type":"star","size":"small","count":true}]},"ga":{"configuration":"auto","token":"UA-71160903-2"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"Edit This Page","base":"https://github.com/matchai/spacefish/tree/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchorjs":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Spacefish","gitbook":"3.x.x"},"file":{"path":"docs/Options.md","mtime":"2018-10-02T01:49:27.685Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-02T01:50:21.218Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
